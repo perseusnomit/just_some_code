@@ -1,0 +1,26 @@
+string1 = "Hello World!"
+# Gives out 12 because sring1 is 12 Characters long
+print(len(string1))
+
+# Gives out 4 because the first "o" is 4 Characters from the start first digit = 0 count
+print(string1.index("o"))
+
+# Counts the l in the string
+print(string1.count("l"))
+
+# Prints a slice of the string [from 3 to 7 (7 not included)]
+print(string1[3:7])
+
+# [start:stop:step] -> Only every 2nd character
+print(string1[3:7:2])
+
+# reverses a string because reversed steps
+print(string1[::-1])
+
+# Converts Strings in lowe or UPPER case
+print(string1.upper())
+print(string1.lower())
+
+# determines if string start with/ends with ... -> answer is True/False
+print(string1.startswith("Hello"))
+print(string1.endswith("hello"))

@@ -1,0 +1,9 @@
+name = "John"
+# apparently the %s (string) is a placeholder for a string. Value too?!
+print("Hello, %s" % name)
+
+age = 23  # https://stackoverflow.com/questions/4288973/whats-the-difference-between-s-and-d-in-python-string-formatting
+# %s for string %d for decimal %f float (,) %g for generic number (i dont know what that is)
+print("%s is %d years old" % (name, age))
+
+# %s is kinda universal? can be used not only for strings

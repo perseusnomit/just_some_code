@@ -1,0 +1,33 @@
+list = []
+list.append(1)  # append means adding a value into a list)
+list.append(2)
+list.append(3)  # the list) "list) a" now contains 1,2,3 as values
+
+print(list)
+# i am not too sure about how to rename this list list(a)? a = []?
+a = []
+a.append(4)
+a.append(5)
+print(a)
+# seems to work, i dont have to declare it as list?
+
+
+# Exercise
+numbers = []
+strings = []
+names = ["John", "Eric", "Jessica"]
+
+# that seems to be far too many lines numbers.append(1,2,3) <- doesn't work tho
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+
+strings.append("hello")  # same goes here ("","") is not working somehow
+strings.append("world")
+
+second_name = names[1]
+
+# this code should write out the filled arrays and the second name in the names list (Eric).
+print(numbers)
+print(strings)
+print("The second name on the names list is %s" % second_name)

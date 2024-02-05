@@ -1,0 +1,17 @@
+# 2 types of NUMBERS - integers and floats (decimals4,4)
+int = 7  # coming from cpp coding, python is weird for not using ; and //
+print(int)
+myint = 6  # the integer is now myint
+print(myint)
+
+float = 7, 1
+print(float)
+
+
+# -----------------------------
+# Srings = letters
+String = "Hello, I even could use ' in my sentences. (Because of "" instead of '')"
+random_letter = "s"
+print(random_letter)
+
+# change2
